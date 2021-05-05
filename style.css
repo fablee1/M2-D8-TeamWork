@@ -1,0 +1,81 @@
+#ex1Row {
+    height: 400px;
+}
+
+#ex1Row>div:nth-child(1) {
+    background-color: #6bb56b;
+    color: white;
+    border: 2px solid black;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+}
+
+#ex1Row>div:nth-child(2) {
+    background-color: #299bff;
+    color: white;
+    font-weight: 700;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+#ex1Row>div>div:nth-child(1) {
+    background-color: #fff7bd;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-top-right-radius: 50px;
+}
+
+#ex1Row>div>div:nth-child(2) {
+    background-color: #ffed69;
+    border-right: 2px solid black;
+}
+
+#ex1Row>div>div:nth-child(3) {
+    background-color: #ffe41f;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom-right-radius: 50px;
+}
+
+.card-price {
+    font-size: 1.8em;
+}
+
+.card-text {
+    font-size: 0.9em;
+}
+
+.card-title {
+    font-size: 1.5em;
+}
+.btn-primary {
+    width: 100%;
+}
+
+
+.btn-primary:hover {
+    color: #007bff;
+    background-color: white;
+}
+
+.button-text {
+    font-size: 0.8em;
+}
+
+.card-text {
+    font-size: 1.1em;
+    font-weight: 450;
+}
+
+.container > p {
+    color: gray;
+}
+
+h1 {
+    font-size: 3.5em;
+    margin-top: 0.3em;
+}
+
+.container {
+    margin-bottom: 3em;
+}
